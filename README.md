@@ -4,7 +4,9 @@ A simple wrapper to make Ghidra headless less painful.
 
 # Quick Start
 
-The tool and the library can be installed using pip:
+Install Ghidra on your platform, and set the GHIDRA_HOME environment variable.
+
+Install `ghidra_wrap` using pip:
 
 ```
 $ pip install .
