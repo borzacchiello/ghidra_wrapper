@@ -8,5 +8,10 @@ setup(name="ghidra_wrap",
 	author_email="lucaborza@gmail.com",
 	url="https://github.com/borzacchiello/ghidra_wrapper",
 	packages=["ghidra_wrap"],
-	python_requires=">=3.6"
+	python_requires=">=3.6",
+	entry_points = {
+			'console_scripts': [
+				'ghidra_wrap = ghidra_wrap.__main__:main',                  
+			],
+		},
 )
